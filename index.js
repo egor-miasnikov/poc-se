@@ -13,6 +13,6 @@ app.get('/switcher', (req, res)=> {
     res.status(200).json({status: toombler});
 });
 
-app.listen(80, () => {
-  console.log('Example app listening on port 80!');
+app.listen(3000, () => {
+  console.log('Example app listening on port 3000!');
 });
